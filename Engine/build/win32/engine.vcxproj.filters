@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\slmath">
+      <UniqueIdentifier>{7e78cd66-51db-4400-b8ea-780cc1002bc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core">
+      <UniqueIdentifier>{e1492e8b-116c-4d24-95b3-fbdb0174cc78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\graphics">
+      <UniqueIdentifier>{f60a1bca-51fb-4acd-84f2-783ae0bdc132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core">
+      <UniqueIdentifier>{98186e05-9e8f-47ba-a453-999a3d0694da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\graphics">
+      <UniqueIdentifier>{3f4e5e79-2239-4f42-81d6-6f59c5e44162}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\slmath">
+      <UniqueIdentifier>{baeb9e02-317f-454f-bb41-c337a13863a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\win32">
+      <UniqueIdentifier>{57dc12ed-45a0-43cb-a513-a0d561a7393d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\slmath\float_util.cpp">
+      <Filter>Source Files\slmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\slmath\intersect_util.cpp">
+      <Filter>Source Files\slmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\slmath\mat4.cpp">
+      <Filter>Source Files\slmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\slmath\quat.cpp">
+      <Filter>Source Files\slmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\slmath\random.cpp">
+      <Filter>Source Files\slmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\slmath\random_util.cpp">
+      <Filter>Source Files\slmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\slmath\runtime_checks.cpp">
+      <Filter>Source Files\slmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\slmath\slmath_lua.cpp">
+      <Filter>Source Files\slmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\slmath\vec2.cpp">
+      <Filter>Source Files\slmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\slmath\vec3.cpp">
+      <Filter>Source Files\slmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\slmath\vec4.cpp">
+      <Filter>Source Files\slmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\es_util_win32.cpp">
+      <Filter>Source Files\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\input_win32.cpp">
+      <Filter>Source Files\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\graphics\es_util.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\graphics\Texture.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\ElapsedTimer.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\FileStream.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\Object.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\graphics\Image.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\graphics\Mesh.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\graphics\Shader.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="examscene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\slmath\float_util.h">
+      <Filter>Header Files\slmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\slmath\intersect_util.h">
+      <Filter>Header Files\slmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\slmath\mat4.h">
+      <Filter>Header Files\slmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\slmath\mtrnd.h">
+      <Filter>Header Files\slmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\slmath\quat.h">
+      <Filter>Header Files\slmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\slmath\random.h">
+      <Filter>Header Files\slmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\slmath\random_util.h">
+      <Filter>Header Files\slmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\slmath\runtime_checks.h">
+      <Filter>Header Files\slmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\slmath\simd.h">
+      <Filter>Header Files\slmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\slmath\slmath.h">
+      <Filter>Header Files\slmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\slmath\slmath_configure.h">
+      <Filter>Header Files\slmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\slmath\slmath_lua.h">
+      <Filter>Header Files\slmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\slmath\slmath_pp.h">
+      <Filter>Header Files\slmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\slmath\vec_impl.h">
+      <Filter>Header Files\slmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\slmath\vec2.h">
+      <Filter>Header Files\slmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\slmath\vec3.h">
+      <Filter>Header Files\slmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\slmath\vec4.h">
+      <Filter>Header Files\slmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\win32\es_util_win32.h">
+      <Filter>Source Files\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\core\ElapsedTimer.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\core\FileStream.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\core\Input.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\core\Object.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\core\Ref.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\core\RefCounter.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\core\Stream.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\graphics\Image.h">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\graphics\Mesh.h">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\graphics\Shader.h">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\graphics\Texture.h">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\graphics\OpenGLES\es_util.h">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\graphics\OpenGLES\es_util_win32.h">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="examscene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\include\slmath\float_util.inl">
+      <Filter>Header Files\slmath</Filter>
+    </None>
+    <None Include="..\..\include\slmath\mat4.inl">
+      <Filter>Header Files\slmath</Filter>
+    </None>
+    <None Include="..\..\include\slmath\quat.inl">
+      <Filter>Header Files\slmath</Filter>
+    </None>
+    <None Include="..\..\include\slmath\random.inl">
+      <Filter>Header Files\slmath</Filter>
+    </None>
+    <None Include="..\..\include\slmath\runtime_checks.inl">
+      <Filter>Header Files\slmath</Filter>
+    </None>
+    <None Include="..\..\include\slmath\vec2.inl">
+      <Filter>Header Files\slmath</Filter>
+    </None>
+    <None Include="..\..\include\slmath\vec3.inl">
+      <Filter>Header Files\slmath</Filter>
+    </None>
+    <None Include="..\..\include\slmath\vec4.inl">
+      <Filter>Header Files\slmath</Filter>
+    </None>
+    <None Include="..\..\include\core\Ref.inl">
+      <Filter>Header Files\core</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
